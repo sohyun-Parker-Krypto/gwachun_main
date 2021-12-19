@@ -74,9 +74,11 @@ while (tbCalendar.rows.length > 2) {
     && i == date.getDate()) {
     
     
-    cell.bgColor = "#f83b36"; 
-    cell.style.color="#fff";
-    cell.style.borderRadius="50% 50%"
+    cell.bgColor = "#fff"; 
+    cell.style.color="#f83b36";
+    cell.style.fontWeight="bold";
+    cell.style.borderRadius="50% 50%";
+    $('tbody').addClass('cf');
     }
     }
 }
