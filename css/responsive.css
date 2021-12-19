@@ -719,7 +719,8 @@
     font-size: 0.6em;
   }
   .body_calender td {
-    margin: 1% 2.4%;
+    width: 12%;
+    margin: 1% 2.6% 1% 0;
   }
 
   .citizen_wrap .main_citizen .main_citizen_quick {
@@ -970,7 +971,8 @@
   }
 
   .header_calendar #tbCalendarYM {
-    flex: 4;
+    flex:10;
+    width: auto;
   }
   .body_calender .header_calendar {
     transform: translate(-50%, 0);
@@ -982,6 +984,15 @@
   #calendar .calendar_body {
     padding-top: 4rem;
     font-size: 0.68em;
+  }
+  #calendar tr:last-child,#calendar tr:nth-child(7){
+    width: 100%;
+  }
+  #calendar tr:last-child td,#calendar tr:nth-child(7) td{
+    margin: 1% 2.6% 1% 0;
+    float: left;
+    max-width: 12%;
+
   }
 
   #footer .info_wrap .inner_wrap {
@@ -1120,6 +1131,7 @@
   }
   .body_calender td{
     font-size: 0.6em;
+    margin: 1% 1%;
   }
 
 
