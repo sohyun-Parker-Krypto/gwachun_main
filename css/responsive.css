@@ -913,6 +913,7 @@
     margin-left: 5%;
     display: block;
     margin-bottom: 2em;
+    transform: scale(0.8);
   }
   .board_wrap02 .inner_wrap .mainboard .box_group {
     display: block;
@@ -1092,7 +1093,9 @@
     .bx-controls-auto {
     top: 50rem;
   }
-
+  .list_calender .list .subj{
+    font-size: 0.9em;
+  }
   .list_calender .list span.desc {
     display: none;
   }
@@ -1115,4 +1118,11 @@
     display: block;
     text-align: center;
   }
+  .body_calender td{
+    font-size: 0.6em;
+  }
+
+
+
+
 }
