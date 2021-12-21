@@ -3,7 +3,6 @@
      $(".main_slider .slider .bxslider").bxSlider({
      auto: true,
      autoControls: true,
-     stopAutoOnClick: true,
      pager: true,
      pagerType: "short",
      nextText: "<span>다음</span>",
@@ -141,12 +140,5 @@ $(function(){
      }
      )
 
-});
-
-
-$(function(){
-$('a').on("click",function(e){
-     e.preventDefault();
-});
 });
 

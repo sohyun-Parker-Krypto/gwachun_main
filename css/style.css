@@ -87,9 +87,12 @@
   height: 100px;
   margin-right: 2rem;
 }
+#nav .logo a{
+  cursor: pointer;
+}
 #nav .logo a span {
   display: block;
-  text-indent: -9999px;
+  opacity: 0;
 }
 #nav .logo::before {
   content: "";

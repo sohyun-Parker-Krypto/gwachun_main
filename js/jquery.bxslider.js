@@ -810,7 +810,7 @@
      *  - index of slide to make active
      */
   var mainSns = $(".main_sns .bx-wrapper .bx-controls");
-    mainSns.append(`<div class='slideNumShow'></div>`)
+    mainSns.append("<div class='slideNumShow'></div>")
 
     var updatePagerActive = function(slideIndex) {
       // if "short" pager type

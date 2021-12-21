@@ -22,15 +22,13 @@ button{cursor: pointer;}
 
 @font-face{
     font-family: 'Malgun Gothic';
-    src: url(../font/MalgunGothic.eot);
-    src: url(../font/MalgunGothic.ttf) format('truetype'),url(../font/MalgunGothic.eot) format('embedded-opentype');
+    src: url(../font/MalgunGothic.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face{
     font-family: 'Malgun Gothic';
-    src: url(../font/MalgunGothic.eot);
-    src: url(../font/MalgunGothicBold.ttf) format('truetype'),url(../font/MalgunGothic.eot) format('embedded-opentype');
+    src: url(../font/MalgunGothicBold.ttf) format('truetype');
     font-weight: bold;
     font-style: normal;
 }

@@ -523,6 +523,7 @@
   .body_calender td {
     flex: 1;
   }
+
   .list_calender {
     width: 100%;
     margin: 2rem auto 4.8rem;
@@ -630,10 +631,27 @@
     margin: 0 auto;
   }
 
+  .header_calendar #tbCalendarYM{
+    max-width: 400px;
+  }
   .body_calender {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    padding: 2%;
+  }
+  .body_calender tr{
+    width: 100%;
+  }
+
+  #calendar tr:last-child, #calendar tr:nth-child(7){
+    width: 100%;
+  }
+  .body_calender td {
+    max-width: 12%;
+    margin: 1% 2.6% 1% 0;
+    float: left;
   }
 
   #footer .site_wrap .inner_wrap ul li.familysite_list {
@@ -714,14 +732,22 @@
     display: none;
   }
 
+  .body_calender .header_calendar{
+    transform: translate(-80%,-250%);
+  }
   .header_calendar #tbCalendarYM {
-    width: 10rem;
+    max-width: 160px;
+    width: auto;
     font-size: 0.6em;
+  }
+/*   #calendar tr:last-child, #calendar tr:nth-child(7){
+    width: 100%;
   }
   .body_calender td {
     width: 12%;
     margin: 1% 2.6% 1% 0;
-  }
+    float: left;
+  } */
 
   .citizen_wrap .main_citizen .main_citizen_quick {
     width: 100%;
@@ -818,7 +844,9 @@
   .visual_wrap .main_quick li {
     padding: 0;
   }
-
+  .visual_wrap .mayor::after{
+    display: none;
+  }
   .board_wrap .mainboard {
     min-height: 50rem;
   }
@@ -862,6 +890,11 @@
   }
   .tab_groups .desc_bottom {
     margin-left: 1.2rem;
+  }
+
+  .mainboard_quick li img{
+    transform-origin: center center;
+    transform: scale(0.8);
   }
 
   .board_wrap .mainpop {
